@@ -1,0 +1,31 @@
+.logger-wrapper {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.filter-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 0;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.filter {
+  margin-right: 5px;
+  width: 17%;
+}
+
+.submit-wrapper button{
+    background-color: #10489b;
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.submit-wrapper button:hover{
+    background-color: #5986ca;
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+}

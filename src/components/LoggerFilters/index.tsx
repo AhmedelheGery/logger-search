@@ -30,7 +30,7 @@ const Filters = ({
         <label htmlFor='ActionType'>Action Type</label>
         <Input
           placeholder='Enter application type'
-          name='ActionType'
+          name='actionType'
           value={loggerFilter.ActionType}
           onChange={handleFilterChange}
         />
@@ -49,7 +49,7 @@ const Filters = ({
         <RangePicker
           value={loggerFilter.date}
           onChange={handleSelectDate}
-          format='YYYY/MM/DD'
+          format='YYYY-MM-DD'
         />
       </div>
       <div className='filter'>

@@ -16,16 +16,23 @@
   width: 17%;
 }
 
-.submit-wrapper button{
-    background-color: #10489b;
-    color: #fff;
-    padding-left: 25px;
-    padding-right: 25px;
+.submit-wrapper button {
+  background-color: #10489b;
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
-.submit-wrapper button:hover{
-    background-color: #5986ca;
-    color: #fff;
-    padding-left: 25px;
-    padding-right: 25px;
+.submit-wrapper button:hover {
+  background-color: #5986ca;
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.loading-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
